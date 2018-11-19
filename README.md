@@ -2,12 +2,18 @@
 
 [competition link](https://www.kaggle.com/c/human-protein-atlas-image-classification)
 
+
+Dataset
+
+
 Interesting kernels:
 * [fastai starter](http://nbviewer.jupyter.org/github/fabsta/interesting_notebooks/blob/master/pretrained-resnet34-with-rgby-0-460-public-lb.ipynb)
 * [fastai course multi-classification example](http://nbviewer.jupyter.org/github/fastai/fastai/blob/master/courses/dl1/lesson2-image_models.ipynb#Multi-label-classification)
 
+[fastai v1. starter (github)](https://github.com/wdhorton/protein-atlas-fastai), [datablocks api](http://nbviewer.jupyter.org/github/wdhorton/protein-atlas-fastai/blob/master/resnet50_basic_datablocks.ipynb)
+
 useful links
-* [data augmentation](https://becominghuman.ai/data-augmentation-using-fastai-aefa88ca03f1)
+[data augmentation](https://becominghuman.ai/data-augmentation-using-fastai-aefa88ca03f1)
 
 
 Workflow
@@ -30,8 +36,10 @@ gpu-stats
 in python notebook
 
 github todo lists
+add overview of important libaries on top of each file
 
-## Ideas grouped by topic
+
+## Needs sorting
 
 Data
 - [ ] sample dataset
@@ -62,12 +70,13 @@ Model
 Score
 - [ ] Check if f1-score is used
 - [ ] Threshold selection for multi-label classification, [paper](https://www.csie.ntu.edu.tw/~cjlin/papers/threshold.pdf)
+- [ ] Check out code from [here](https://www.kaggle.com/tcapelle/4-channel-darknet-sz-512)
 
 other competitions
 
 image preprocessing
 
-## Notes from forum
+
 
 
 filters:
@@ -110,4 +119,7 @@ if it contains two, three, …. objects, it is has still a label A
 you can always break the image into smaller image an ensemble back again. My CDiscount challenge solution gives you a clue on how to do it!
 - Use features from different resolutions
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+
+
